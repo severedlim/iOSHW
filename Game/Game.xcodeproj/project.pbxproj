@@ -21,8 +21,6 @@
 		8C83DA44181C59A9002AE4F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C83DA43181C59A9002AE4F1 /* XCTest.framework */; };
 		8C83DA45181C59A9002AE4F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C83DA1D181C59A8002AE4F1 /* Foundation.framework */; };
 		8C83DA46181C59A9002AE4F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C83DA21181C59A8002AE4F1 /* UIKit.framework */; };
-		8C83DA9F181F7947002AE4F1 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C83DA9E181F7947002AE4F1 /* TitleViewController.m */; };
-		8C83DAA3181F7969002AE4F1 /* GameoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C83DAA1181F7969002AE4F1 /* GameoverViewController.m */; };
 		8C83DAA618203B90002AE4F1 /* GameScore.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C83DAA518203B90002AE4F1 /* GameScore.plist */; };
 		8C83DAC918203D1E002AE4F1 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C83DABE18203D1E002AE4F1 /* home.png */; };
 		8C83DACA18203D1E002AE4F1 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C83DABF18203D1E002AE4F1 /* img1.png */; };
@@ -35,6 +33,8 @@
 		8C83DAD118203D1E002AE4F1 /* img8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C83DAC618203D1E002AE4F1 /* img8.png */; };
 		8C83DAD218203D1E002AE4F1 /* kenny.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C83DAC718203D1E002AE4F1 /* kenny.png */; };
 		8C83DAD318203D1E002AE4F1 /* oboe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C83DAC818203D1E002AE4F1 /* oboe.png */; };
+		8C9C594C182077CF0057A634 /* GameoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C5949182077CF0057A634 /* GameoverViewController.m */; };
+		8C9C594D182077CF0057A634 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C594B182077CF0057A634 /* TitleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +67,6 @@
 		8C83DA3C181C59A8002AE4F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		8C83DA42181C59A9002AE4F1 /* GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C83DA43181C59A9002AE4F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8C83DA9D181F7947002AE4F1 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleViewController.h; path = "../../../../Downloads/Week_2-Animation+UserDefaults/GameTemplete/TitleViewController.h"; sourceTree = "<group>"; };
-		8C83DA9E181F7947002AE4F1 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleViewController.m; path = "../../../../Downloads/Week_2-Animation+UserDefaults/GameTemplete/TitleViewController.m"; sourceTree = "<group>"; };
-		8C83DAA0181F7969002AE4F1 /* GameoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameoverViewController.h; path = "../../../../Downloads/Week_2-Animation+UserDefaults/GameTemplete/GameTemplete/GameoverViewController.h"; sourceTree = "<group>"; };
-		8C83DAA1181F7969002AE4F1 /* GameoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameoverViewController.m; path = "../../../../Downloads/Week_2-Animation+UserDefaults/GameTemplete/GameTemplete/GameoverViewController.m"; sourceTree = "<group>"; };
 		8C83DAA518203B90002AE4F1 /* GameScore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameScore.plist; sourceTree = "<group>"; };
 		8C83DABE18203D1E002AE4F1 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		8C83DABF18203D1E002AE4F1 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
@@ -83,6 +79,10 @@
 		8C83DAC618203D1E002AE4F1 /* img8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img8.png; sourceTree = "<group>"; };
 		8C83DAC718203D1E002AE4F1 /* kenny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kenny.png; sourceTree = "<group>"; };
 		8C83DAC818203D1E002AE4F1 /* oboe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oboe.png; sourceTree = "<group>"; };
+		8C9C5948182077CF0057A634 /* GameoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameoverViewController.h; sourceTree = SOURCE_ROOT; };
+		8C9C5949182077CF0057A634 /* GameoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameoverViewController.m; sourceTree = SOURCE_ROOT; };
+		8C9C594A182077CF0057A634 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleViewController.h; path = ../TitleViewController.h; sourceTree = "<group>"; };
+		8C9C594B182077CF0057A634 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleViewController.m; path = ../TitleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,10 +150,10 @@
 				8C83DA35181C59A8002AE4F1 /* GameViewController.m */,
 				8C83DA37181C59A8002AE4F1 /* GameMyScene.h */,
 				8C83DA38181C59A8002AE4F1 /* GameMyScene.m */,
-				8C83DA9D181F7947002AE4F1 /* TitleViewController.h */,
-				8C83DA9E181F7947002AE4F1 /* TitleViewController.m */,
-				8C83DAA0181F7969002AE4F1 /* GameoverViewController.h */,
-				8C83DAA1181F7969002AE4F1 /* GameoverViewController.m */,
+				8C9C5948182077CF0057A634 /* GameoverViewController.h */,
+				8C9C5949182077CF0057A634 /* GameoverViewController.m */,
+				8C9C594A182077CF0057A634 /* TitleViewController.h */,
+				8C9C594B182077CF0057A634 /* TitleViewController.m */,
 				8C83DAA518203B90002AE4F1 /* GameScore.plist */,
 				8C83DABD18203D1E002AE4F1 /* images */,
 				8C83DA59181CA4F2002AE4F1 /* Resources */,
@@ -310,11 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C83DA30181C59A8002AE4F1 /* GameAppDelegate.m in Sources */,
+				8C9C594D182077CF0057A634 /* TitleViewController.m in Sources */,
 				8C83DA36181C59A8002AE4F1 /* GameViewController.m in Sources */,
-				8C83DAA3181F7969002AE4F1 /* GameoverViewController.m in Sources */,
-				8C83DA9F181F7947002AE4F1 /* TitleViewController.m in Sources */,
 				8C83DA39181C59A8002AE4F1 /* GameMyScene.m in Sources */,
 				8C83DA2C181C59A8002AE4F1 /* main.m in Sources */,
+				8C9C594C182077CF0057A634 /* GameoverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
